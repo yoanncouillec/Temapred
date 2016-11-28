@@ -1,0 +1,31 @@
+		Iterateur de table - construction d'une hashmap (deprecated)
+		
+		/*Hashtable<String, Integer> dateCount = new Hashtable<String, Integer>();
+		Configuration conf = HBaseConfiguration.create();
+		HTable table = new HTable(conf, "wordCount");
+
+		ResultScanner scanner = table.getScanner(new Scan());
+		Get current = new Get();
+		current.addFamily(Bytes.toBytes("date"));
+
+		for (Result rr = scanner.next(); rr != null; rr = scanner.next()) {
+			NavigableMap<byte[], byte[]> famMap = rr.getFamilyMap(Bytes.toBytes("date"));
+			for (byte[] key : famMap.keySet()) {
+				
+				byte[] count = rr.getValue(Bytes.toBytes("date"), Bytes.toBytes(Bytes.toString(key)));
+
+				String currentDate = Bytes.toString(key);
+				Integer currentCount = Bytes.toInt(count);
+
+				if(dateCount.contains(currentDate)){
+					int countHash = dateCount.get(currentDate);
+					countHash += currentCount;
+				}
+
+				dateCount.put(currentDate, currentCount);
+
+				System.out.println(Bytes.toString(rr.getRow()));
+				System.out.println(Bytes.toInt(count));
+				System.out.println(Bytes.toString(key));
+			}
+		}*/

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="Jars/commons-configuration-1.7.jar"/>
+	<classpathentry kind="lib" path="Jars/commons-lang-2.0.jar"/>
+	<classpathentry kind="lib" path="Jars/commons-lang3-3.0.1.jar"/>
+	<classpathentry kind="lib" path="Jars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="Jars/hadoop-core-0.20.203.0.jar"/>
+	<classpathentry kind="lib" path="Jars/hadoop-tools-0.20.203.0.jar"/>
+	<classpathentry kind="lib" path="Jars/hbase-0.90.4.jar"/>
+	<classpathentry kind="lib" path="Jars/jackson-core-asl-1.0.1.jar"/>
+	<classpathentry kind="lib" path="Jars/jackson-mapper-asl-1.0.1.jar"/>
+	<classpathentry kind="lib" path="Jars/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="Jars/zookeeper-3.3.1.jar"/>
+	<classpathentry kind="lib" path="Jars/commons-math-2.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
